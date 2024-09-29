@@ -1,6 +1,6 @@
-# Task Management Application
+# Taskify : Track your tasks
 
-Welcome to the Task Management Application! This application allows users to create, update, and manage tasks within different columns, similar to Trello. Users can move tasks between columns using drag-and-drop functionality and log in via Google for a seamless experience.
+This application allows users to create, update, and manage tasks within different columns, similar to Trello. Users can move tasks between columns using drag-and-drop functionality and log in via Google for a seamless experience.
 
 ## FrontEnd Deployed Link :- https://voosh-assignment-dusky.vercel.app/
 ## BackEnd Deployed Link :- https://voosh-assignment-4zan.onrender.com
@@ -15,7 +15,6 @@ Welcome to the Task Management Application! This application allows users to cre
 6. [Error Handling](#error-handling)
 7. [Validation](#validation)
 8. [Screenshots](#screenshots)
-9. [Bonus Features](#bonus-features)
 
 ## Features
 
@@ -110,13 +109,10 @@ The backend server will run on http://localhost:8080/.
 - **DELETE** `/task/delete/:taskId` - Delete a task
 
 ## Error Handling
-
 The application includes comprehensive error handling to ensure that users receive appropriate error messages and status codes. Common errors such as invalid input data, authentication failures, and server errors are handled gracefully.
 
 ## Validation
-
 Server-side validation is implemented to ensure that:
-
 - **Tasks**: Tasks must have a valid title and belong to a valid column.
 - **User Registration and Login**: Ensure user data is valid and secure.
 
@@ -124,32 +120,27 @@ Server-side validation is implemented to ensure that:
 
 # Application Login Page
 
-![Login Page](https://github.com/user-attachments/assets/8e11367f-9419-4d32-88fc-661124322184)
+![image](https://github.com/user-attachments/assets/0d730bb1-7e2a-4e62-8143-71f2c65d5221)
+
 
 # Application Signup Page
 
-![Signup Page](https://github.com/user-attachments/assets/f7b434c0-f941-4305-8083-2bb68f9c7713)
+![image](https://github.com/user-attachments/assets/a4b12cfb-c597-4075-8c9f-657239d50a2d)
 
 
 # Application Home Page
 
-![Home page](https://github.com/user-attachments/assets/700c18ef-d652-4d5b-b7d2-92df66b3667f)
+![image](https://github.com/user-attachments/assets/c1cdd521-915a-44ea-80a5-a5dc835adf74)
+
 
 # Application Profile Page
 
-![Profile page](https://github.com/user-attachments/assets/fa0afcdd-c25a-4875-89a7-e36899d994bc)
+![image](https://github.com/user-attachments/assets/a7aec8a0-8236-4a60-b691-7302042ca4f3)
 
 # Application Profile Eidt
 
-![Profile edit page](https://github.com/user-attachments/assets/0cae1256-b144-4b3a-8ff3-fc7a52c473c2)
+![image](https://github.com/user-attachments/assets/7be0237e-f4aa-4084-9f79-7b4c8d85657c)
 
-# Application Signup Validation FrontEnd
-
-![signup validation](https://github.com/user-attachments/assets/d6aae50b-a2b0-45e0-ad3e-0ebdd4c1170c)
-
-# Application Add Task Validation
-
-![Add Task Validation](https://github.com/user-attachments/assets/00ff877e-437a-404d-944b-a3f89e1e70a9)
 
 
 ## Thank you for using the Task Management Application! If you have any questions or feedback, please feel free to open an issue on GitHub Or Mail Me At :- jha.chakresh2001@gmail.com
