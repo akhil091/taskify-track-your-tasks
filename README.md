@@ -2,7 +2,7 @@
 
 This application allows users to create, update, and manage tasks within different columns, similar to Trello. Users can move tasks between columns using drag-and-drop functionality and log in via Google for a seamless experience.
 
-###Deployed Link : [https://voosh-assignment-dusky.vercel.app/](https://taskify-track-your-tasks.netlify.app/)
+### Deployed Link : [https://voosh-assignment-dusky.vercel.app/](https://taskify-track-your-tasks.netlify.app/)
 
 ## Table of Contents
 
@@ -117,26 +117,26 @@ Server-side validation is implemented to ensure that:
 
 ## SCREENSHOTS 
 
-# Application Login Page
+### Application Login Page
 
 ![image](https://github.com/user-attachments/assets/0d730bb1-7e2a-4e62-8143-71f2c65d5221)
 
 
-# Application Signup Page
+### Application Signup Page
 
 ![image](https://github.com/user-attachments/assets/a4b12cfb-c597-4075-8c9f-657239d50a2d)
 
 
-# Application Home Page
+### Application Home Page
 
 ![image](https://github.com/user-attachments/assets/c1cdd521-915a-44ea-80a5-a5dc835adf74)
 
 
-# Application Profile Page
+### Application Profile Page
 
 ![image](https://github.com/user-attachments/assets/a7aec8a0-8236-4a60-b691-7302042ca4f3)
 
-# Application Profile Eidt
+### Application Profile Eidt
 
 ![image](https://github.com/user-attachments/assets/7be0237e-f4aa-4084-9f79-7b4c8d85657c)
 
