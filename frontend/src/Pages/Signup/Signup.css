@@ -1,0 +1,21 @@
+.signup-container {
+  max-width: 30rem;
+  margin: 5rem auto;
+  padding: 2rem;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+}
+
+.alternate-option {
+  margin: 10px 0;
+}
+
+.alternate-option a {
+  color: #1890ff;
+}

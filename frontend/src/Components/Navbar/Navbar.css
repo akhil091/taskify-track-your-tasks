@@ -1,0 +1,41 @@
+:root {
+    --primary-color: rgb(87, 157, 243);
+    --hover-color: linear-gradient(45deg, #1890ff, #40a9ff);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+
+.navbar-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-btn button {
+    border: none;
+    background: transparent; 
+    color: black; 
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 8px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.navbar-btn button.active,
+.navbar-btn button:hover {
+    background: var(--hover-color);
+    color: #fff; 
+    border-radius: 5px; 
+}
+
+.navbar-btn button:focus {
+    outline: 2px solid #1890ff;
+    outline-offset: 2px;
+}
+

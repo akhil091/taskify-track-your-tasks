@@ -1,0 +1,41 @@
+.homepage-container {
+  margin-top: 2rem;
+}
+
+.filter-parent {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.search-filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid #dcdcdc;
+  font-size: 16px;
+}
+
+.filter-select {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid #dcdcdc;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
