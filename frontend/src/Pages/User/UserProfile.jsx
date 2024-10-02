@@ -35,7 +35,7 @@ const UserProfile = () => {
       try {
         setLoad(true);
         const response = await axios.get(
-          "https://voosh-assignment-4zan.onrender.com/user/info",
+          "https://taskify-track-your-tasks.onrender.com/user/info",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -59,7 +59,7 @@ const UserProfile = () => {
     try {
       setLoad(true);
       const response = await axios.post(
-        "https://voosh-assignment-4zan.onrender.com/upload/avatar",
+        "https://taskify-track-your-tasks.onrender.com/upload/avatar",
         formData
       );
       if (response) {
@@ -87,7 +87,7 @@ const UserProfile = () => {
     try {
       setLoad(true);
       const response = await axios.patch(
-        "https://voosh-assignment-4zan.onrender.com/user/update",
+        "https://taskify-track-your-tasks.onrender.com/user/update",
         {
           userId: profile?._id,
           firstName: values?.firstName,
