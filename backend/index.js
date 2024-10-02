@@ -34,7 +34,9 @@ app.use("/task", taskRoute);
 
 app.use("/upload", avatarUpload);
 
-app.listen(8080, () => {
-  console.log("Server is running on port 8080");
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
   connectToServer();
 });
