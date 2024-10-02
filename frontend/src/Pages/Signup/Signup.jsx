@@ -24,7 +24,7 @@ export const Signup = () => {
     ) {
       return message.error("Password must have one uppercase, one number, and one special character")
     }
-    axios.post("https://voosh-assignment-4zan.onrender.com/user/register", values).then(()=>{
+    axios.post("https://taskify-track-your-tasks.onrender.com/user/register", values).then(()=>{
       message.success("User Registered Successfully!")
       navigate("/")
     })
@@ -43,7 +43,7 @@ export const Signup = () => {
       console.log(email, displayName, photoUrl, uid)
 
       const res = await axios.post(
-        "https://voosh-assignment-4zan.onrender.com/user/auth-google",
+        "https://taskify-track-your-tasks.onrender.com/user/auth-google",
         {
           googleId: uid,
           firstName,
