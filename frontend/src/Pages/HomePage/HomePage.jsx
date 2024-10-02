@@ -39,7 +39,7 @@ const HomePage = () => {
     try {
       setLoading(true);
       const response = await axios.get(
-        "https://voosh-assignment-4zan.onrender.com/user/info",
+        "https://taskify-track-your-tasks.onrender.com/user/info",
         {
           headers: { Authorization: `Bearer ${token}` },
         }
@@ -57,7 +57,7 @@ const HomePage = () => {
     setLoading(true);
 
     axios
-      .get("https://voosh-assignment-4zan.onrender.com/task/all", {
+      .get("https://taskify-track-your-tasks.onrender.com/task/all", {
         params,
         headers: { Authorization: `Bearer ${token}` },
       })
