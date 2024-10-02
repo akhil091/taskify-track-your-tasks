@@ -45,7 +45,7 @@ export const TaskCard = ({ taskData, fetchTaskData }) => {
   const handleEditSubmit = (values) => {
     axios
       .patch(
-        `https://voosh-assignment-4zan.onrender.com/task/edit/${selectedTask?._id}`,
+        `https://taskify-track-your-tasks.onrender.com/task/edit/${selectedTask?._id}`,
         values,
         {
           headers: {
@@ -67,7 +67,7 @@ export const TaskCard = ({ taskData, fetchTaskData }) => {
   const DeleteTask = (taskId) => {
     return () => {
       axios
-        .delete(`https://voosh-assignment-4zan.onrender.com/task/delete/${taskId}`, {
+        .delete(`https://taskify-track-your-tasks.onrender.com/task/delete/${taskId}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
