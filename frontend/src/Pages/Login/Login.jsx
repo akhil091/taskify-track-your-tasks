@@ -15,7 +15,7 @@ export const Login = () => {
   const loadBackend = () => {
     setload(TruckOutlined);
     axios
-      .get("https://voosh-assignment-4zan.onrender.com/")
+      .get("https://taskify-track-your-tasks.onrender.com/")
       .then(() => {
         setload(false);
       })
@@ -37,7 +37,7 @@ export const Login = () => {
       return message.error("Password must have One uppercase, One number, and One Special Character")
     }
     axios
-      .post("https://voosh-assignment-4zan.onrender.com/user/login", values)
+      .post("https://taskify-track-your-tasks.onrender.com/user/login", values)
       .then((res) => {
         localStorage.setItem("userToken", res?.data?.token);
         message.success("Successfully Logged In");
@@ -52,7 +52,7 @@ export const Login = () => {
       const uid = response?.user.uid
       const [firstName, lastName] = displayName.split(" ");
       const res = await axios.post(
-        "https://voosh-assignment-4zan.onrender.com/user/auth-google",
+        "https://taskify-track-your-tasks.onrender.com/user/auth-google",
         {
           googleId: uid,
           firstName,
