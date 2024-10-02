@@ -3,13 +3,13 @@ import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDVGCSaTW98DrHGIdLQPrCpUilOjlA6Us0",
-  authDomain: "voosh-assignment-e93d6.firebaseapp.com",
-  projectId: "voosh-assignment-e93d6",
-  storageBucket: "voosh-assignment-e93d6.appspot.com",
-  messagingSenderId: "923824027342",
-  appId: "1:923824027342:web:62830bbca9c1bafa26c29f",
-  measurementId: "G-CFXEH27C19"
+  apiKey: "AIzaSyArCOjTHjtEbjwhzG8R6Nopw931E931g38",
+  authDomain: "taskify-2bbc9.firebaseapp.com",
+  projectId: "taskify-2bbc9",
+  storageBucket: "taskify-2bbc9.appspot.com",
+  messagingSenderId: "202796476102",
+  appId: "1:202796476102:web:f55dbe2dd91f94089c19c7",
+  measurementId: "G-PS4L0XQWFS"
 };
 
 // Initialize Firebase
