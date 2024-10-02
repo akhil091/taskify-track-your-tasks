@@ -30,7 +30,7 @@ export const TaskPage = ({ taskData, fetchTaskData }) => {
     const token = localStorage.getItem("userToken");
     setLoad(true);
     axios
-      .patch(`https://voosh-assignment-4zan.onrender.com/task/edit/${draggableId}`, payload, {
+      .patch(`https://taskify-track-your-tasks.onrender.com/task/edit/${draggableId}`, payload, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
