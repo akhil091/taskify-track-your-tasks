@@ -37,8 +37,8 @@ Make sure you have the following installed on your local development environment
 First, clone the repository to your local machine:
 
 ```
-git clone (https://github.com/Chakresh2001/Voosh-Assignment.git)
-cd Voosh-Assignment
+git clone
+cd taskify-track-your-tasks
 ```
 
 # Install Dependencies
@@ -55,6 +55,7 @@ Create a .env file in the backend folder and add the following environment varia
 MONGO_URI=<your-mongodb-connection-string>
 GOOGLE_CLIENT_ID=<your-google-client-id>
 GOOGLE_CLIENT_SECRET=<your-google-client-secret>
+JWT_TOKEN=<your-jwt-token-secret-key>
 ```
 
 # Run the Application
