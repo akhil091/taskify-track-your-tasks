@@ -25,5 +25,5 @@
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0"
   },
-  "build": "babel src -d dist"
+  "build": "npm install --production"
 }
