@@ -2,8 +2,8 @@
 
 This application allows users to create, update, and manage tasks within different columns, similar to Trello. Users can move tasks between columns using drag-and-drop functionality and log in via Google for a seamless experience.
 
-### Deployed Link : https://taskify-track-your-tasks.netlify.app/
-
+### Deployed Link : https://taskify-track-your-tasks.netlify.app
+### backend deployed at https://taskify-track-your-tasks.onrender.com
 ## Table of Contents
 
 1. [Features](#features)
